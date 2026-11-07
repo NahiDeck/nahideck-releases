@@ -35,7 +35,7 @@ Compare the resulting hash with the published checksum in `SHA256SUMS.txt`.
 ## Companion Apps
 
 - **Mobile App (Android):** Available on [Google Play Store](https://play.google.com/store/apps/details?id=app.nahideck.mobile)
-- **Browser Extension:** Available on [Chrome Web Store](https://chromewebstore.google.com/detail/nahideck-connect/nmmbmnggepnogpdpbocjafmapkhlijhb)
+- **Browser Extension:** Available on [Chrome Web Store](https://chromewebstore.google.com/detail/nahideck-connect/nmmbmnggepnogpdpbocjafmapkhlijhb) and [Firefox Store](https://addons.mozilla.org/tr/firefox/addon/nahideck-connect/)
 - **Official Website:** [nahideck.github.io](https://nahideck.github.io)
 
 ---
