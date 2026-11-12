@@ -14,21 +14,27 @@ NahiDeck turns your Android device into a customizable control deck, system moni
 
 ## Downloads
 
-Download the latest Windows installer and its integrity checksum from the **[Releases](https://github.com/NahiDeck/nahideck-releases/releases)** page:
+The newest Windows installer is always available at a fixed address, no matter which version is current:
+
+**[Download NahiDeck for Windows](https://github.com/NahiDeck/nahideck-releases/releases/latest/download/NahiDeck-setup.exe)**
+
+You can also browse all versions on the **[Releases](https://github.com/NahiDeck/nahideck-releases/releases)** page.
 
 | Platform | File | Architecture |
 |---|---|---|
-| Windows 10 / 11 | `NahiDeck_1.0.0_x64-setup.exe` | 64-bit (x64) |
+| Windows 10 / 11 | `NahiDeck-setup.exe` | 64-bit (x64) |
+
+Each release contains the installer and its checksum file, `NahiDeck-setup.exe.sha256`.
 
 ### Integrity Verification
 
-Every release includes a `SHA256SUMS.txt` file. To verify your download on Windows PowerShell:
+To verify your download in Windows PowerShell, compute the hash of the installer:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\NahiDeck_1.0.0_x64-setup.exe
+Get-FileHash -Algorithm SHA256 .\NahiDeck-setup.exe
 ```
 
-Compare the resulting hash with the published checksum in `SHA256SUMS.txt`.
+Compare the resulting hash with the one inside `NahiDeck-setup.exe.sha256` of the same release. They must be identical.
 
 ---
 
